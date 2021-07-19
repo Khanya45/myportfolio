@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar button {
+  background: rgba(206, 206, 206, 0.6);
+  border-radius: 0;
+}
+
+#first {
+  background: #b08968;
+  box-sizing: border-box;
+  background-size: cover;
+  flex-direction: column;
+  height: 100vh;
+  color: wheat;
+}
+.About_me {
+  padding: 1% 0% 0% 20%;
+  height: 100vh;
+  color: azure;
+}
+
+.main {
+  width: 100%;
+}
+
+body {
+  background: url(/images/main.jpeg);
+}
+
+.white-bg {
+  background-color: aliceblue;
+  margin-top: 280px;
+  height: 1000px;
+}
+
+.titles {
+  text-align: center;
+  margin-top: 90px;
+}
+
+.interests {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  /* padding-left: 6%; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.hobbies {
+  list-style-type: none;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  /* padding-left: 7%; */
+}
+
+.hobbies i {
+  background: #caa17f;
+  padding: 4%;
+  border-radius: 50%;
+  font-size: 1.7rem;
+}
+.hobbies li {
+  margin-bottom: 10px;
+}
+
+.b {
+  font-weight: bold;
+}
+
+.titles h3 {
+  font-weight: 300;
+  font-size: 2em;
+}
+
+ul a {
+  margin-bottom: 20px;
+}
+
+.myinfo {
+  display: flex;
+  /* margin-left: 7%; */
+  flex-direction: row;
+  /* justify-content: space-around; */
+  margin-top: 30px;
+  flex-wrap: wrap;
+  /* padding-left: 7%; */
+}
+
+.content_2 p {
+  padding: 2% 7%;
+  padding-left: 0;
+  margin-left: 10px;
+}
+
+h5 {
+  /* padding-left: 7%; */
+  margin-top: 50px;
+  font-weight: 300;
+  font-size: 2em;
+}
+
+.content_2 {
+  background: linear-gradient(-160deg, #b08968, #caa17f, white);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* align-items: center; */
+  padding: 7%;
+  padding-top: 0;
+  /* height: 70vh; */
+  color: black;
+}
+
+/* .hl {
+  border-bottom: 3px solid green;
+  height: 500px;
+} */
+
+.pro-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pro-img img {
+  border-radius: 50%;
+  height: 190px;
+  width: 190px;
+  position: relative;
+  bottom: -90px;
+}
+
+@media screen and (max-width: 1000px) {
+  .About_me {
+    padding: 1% 1% 0% 1%;
+  }
+}
+
+@media screen and (max-width: 455px) {
+  .interests {
+    flex-direction: column;
+  }
+}
+
+/* @media screen and (max-width: 1000px) {
+  #side_bar {
+    display: none;
+  }
+  #side_social i {
+    margin-top: 50em;
+  }
+
+  h4 {
+    display: none;
+  }
+  .navbar {
+    display: block;
+  }
+
+  #About_me h1 {
+    font-size: 3em;
+  }
+
+  #About_me h2 {
+    font-size: 2em;
+  }
+
+  #About_me {
+    padding: 12% 10% 0% 5%;
+  }
+
+  #socials {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 488) {
+  #About_me h2 {
+    font-size: 1.5 em;
+    font-weight: 400;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+    margin-bottom: 50px;
+  }
+} */
